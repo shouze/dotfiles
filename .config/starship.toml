@@ -1,0 +1,17 @@
+[aws]
+disabled = true
+
+[cmd_duration]
+min_time = 0
+
+#[custom.tfenv]
+#command = "make env"
+#files = [".terraform"]
+#when = """ test -f Makefile && set -q TF_VAR_environment """
+#format = "🔶 [$symbol$output]($style)"
+
+#[custom.compose_profiles]
+#command = "echo -e $COMPOSE_PROFILES"
+#files = ["docker-compose.yaml", "..docker-compose.yaml"]
+#when = """set -q COMPOSE_PROFILES && test -f docker-compose.yaml || test -f ../docker-compose.yaml"""
+#format = " [🐙 $symbol$output](bold blue)"

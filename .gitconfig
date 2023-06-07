@@ -1,0 +1,48 @@
+[user]
+	name = Sébastien HOUZÉ
+	email = sebastien.houze@axeptio.eu
+	signingkey = F8482C23B444DF15
+
+[github]
+	user = shouze
+
+[commit]
+	gpgSign = true
+
+[tag]
+	gpgSign = true
+
+[alias]
+	co = checkout
+	st = status
+	prettylog = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+
+[color]
+	ui = true
+
+[core]
+	excludesfile = ~/.gitignore_global
+	ignorecase = false
+	pager = delta
+
+[push]
+	default = tracking
+
+[rerere]
+	enabled = true
+
+[branch]
+	autosetuprebase = always
+
+[help]
+	autocorrect = 1
+
+[diff]
+	renameLimit = 5200
+	external = difft
+
+[difftool]
+	prompt = false
+
+[gc]
+	auto = 0
