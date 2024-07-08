@@ -15,11 +15,11 @@ starship init fish | source
 
 # https://github.com/ajeetdsouza/zoxide
 #zoxide init fish | source
-set --export PATH /Users/shouze/.local/bin $PATH
+set --export PATH $HOME/.local/bin $PATH
 
 set -gx NVM_DIR "$HOME/.nvm"
 
-alias ls='exa --icons --group-directories-first -a'
+alias ls='eza --icons --group-directories-first -a'
 alias dig='dog'
 alias grep='rg'
 alias cat='bat'
